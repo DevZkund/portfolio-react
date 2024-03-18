@@ -8,7 +8,7 @@ function Portfolio() {
       <section id="portfolio" className="section">
         <Container className="mt-5">
           <Row className="justify-content-md-center">
-            <Col xs lg="6" className="border pt-5" style={Styles.col}>
+            <Col xs lg="6" className="pt-5" >
               <h6 style={{ color: "#ffbd39", marginBottom: 20 }}>HELLO!</h6>
               <span id="info" style={Styles.info}>
                 I'm a
@@ -45,7 +45,7 @@ function Portfolio() {
               </Button>
             </Col>
 
-            <Col xs lg="5" className="border ">
+            <Col xs lg="5" >
               <Image
                 className="img-fluid" style={Styles.profileImg}
                 src="Images/about.png"
@@ -89,7 +89,8 @@ const Styles = {
     fontWeight: 600,
   },
   profileImg: {
-    width: "14em",
+    margin: 'auto' ,
+    width: "16em",
     overflow: 'hidden'
   },
 };
